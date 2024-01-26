@@ -120,7 +120,7 @@ catch (err) {
 }
 ```
 
-Finally, for ultimate control over the async conversion, you can pre-declare the names of your callback arguments in the `__asyncify` property, by setting it to an object containing the function names as keys, and the argument names as array items.  Then, the result can be awaited as a destructed object with named keys.  Here is how to set this up in the class:
+Finally, for ultimate control over the async conversion, you can pre-declare the names of your callback arguments in the call to `asyncify()`, by setting it to an object containing the function names as keys, and the argument names as array items.  Then, the result can be awaited as a destructed object with named keys.  Here is how to set this up:
 
 ```js
 class Soda {
@@ -135,7 +135,7 @@ asyncify( Soda, {
 } );
 ```
 
-And here is how to await it:
+And here is how to await the named arguments:
 
 ```js
 let drink = new Soda();
