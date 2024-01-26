@@ -16,13 +16,13 @@
 Use [npm](https://www.npmjs.com/) to install the module:
 
 ```
-npm install class-util
+npm install pixl-class-util
 ```
 
 Then use `require()` to load it in your code:
 
 ```js
-const { asyncify, mixin, eventify, hookify } = require('class-util');
+const { asyncify, mixin, eventify, hookify } = require('pixl-class-util');
 ```
 
 Then call one of the following helper functions:

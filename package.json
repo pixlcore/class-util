@@ -1,5 +1,5 @@
 {
-  "name": "class-util",
+  "name": "pixl-class-util",
   "version": "1.0.0",
   "description": "Helper functions for extending classes with mixins and more.",
   "author": "Joseph Huckaby <jhuckaby@gmail.com>",
